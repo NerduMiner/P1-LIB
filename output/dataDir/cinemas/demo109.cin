@@ -1,0 +1,51 @@
+// Movie flags
+type 	0
+flags 	324
+
+// Scene files
+addScene {	scene	cinemas/demo32/ca_t_m02.dsk
+			}
+
+// Actor files
+addActor {	shape	tekis/swallow/swallow.mod
+			bundle	cinemas/demo109/chappy.anm
+			anims	cinemas/demo109/chappy.bin
+			}
+
+addActor {	shape	pikis/redModel.mod
+			bundle	cinemas/demo109/pikmin.anm
+			anims	cinemas/demo109/pikmin.bin
+			}
+
+addActor {	shape	pikis/yelModel.mod
+			bundle	cinemas/demo109/pikmin.anm
+			anims	cinemas/demo109/pikmin.bin
+			}
+
+addActor {	shape	pikis/bluModel.mod
+			bundle	cinemas/demo109/pikmin.anm
+			anims	cinemas/demo109/pikmin.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	359
+			flags	3
+			actor	tekis/swallow/swallow.mod
+			acflags	2050
+			anim	2	0
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	0
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	1
+			actor	pikis/bluModel.mod
+			acflags	16386
+			anim	2	2
+			actor	tekis/swallow/swallow.mod
+			acflags	32770
+			anim	2	1
+			keys	0	{	
+						}
+			}
+

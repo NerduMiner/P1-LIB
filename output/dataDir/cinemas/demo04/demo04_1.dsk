@@ -1,0 +1,187 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	D:/piki/demo/demo04/demo04_1
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/08/31
+	time	11:45:45
+	host	MAEKAWAS-EXP
+	magnify	1.000000
+	numframes	472
+	numcameras	1
+	numAmbLights	0
+	numDifLights	4
+	numfogs		0
+	numLayerFogs	0
+	playmode	loop
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	108
+	float	0.000000 -59.565319 -0.002632 157.000000 -57.680923 1.991615 196.000000 -40.988289
+	float	0.000000 471.000000 -40.988289 0.000000 472.000000 -59.565319 0.000000 0.000000
+	float	78.306046 -0.005493 156.000000 100.900414 13.930779 177.000000 153.927246 104.849396
+	float	195.000000 191.565872 0.000000 471.000000 191.565872 0.000000 472.000000 78.306046
+	float	0.000000 0.000000 107.065727 -0.013962 156.000000 146.641876 25.077438 168.000000
+	float	189.515564 180.662155 194.000000 323.529816 5.348053 231.000000 323.529816 0.000000
+	float	471.000000 323.529816 0.000000 472.000000 107.065727 0.000000 0.000000 -1.969613
+	float	-0.000136 159.000000 -3.188161 -1.614786 206.000000 -7.600700 0.000000 471.000000
+	float	-7.600700 0.000000 472.000000 -1.969613 0.000000 0.000000 10.819287 -0.002489
+	float	157.000000 19.012920 5.979939 195.000000 51.059223 0.000000 471.000000 51.059223
+	float	0.000000 472.000000 10.819287 0.000000 0.000000 -0.347318 -0.000501 193.000000
+	float	2.195880 0.053562 471.000000 2.196780 0.000000 472.000000 -0.347318 0.000000
+	float	0.000000 0.000000 48.521580 0.000000 157.000000 48.521580 0.000000 167.000000
+	float	55.000000 0.000000 0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	5	0	0
+	cam_pos_y	6	15	0
+	cam_pos_z	7	33	0
+	cam_lat_x	5	54	0
+	cam_lat_y	5	69	0
+	cam_lat_z	4	84	0
+	cam_twist	1	96	0
+	cam_fovy	3	97	0
+	cam_near	1	106	0
+	cam_far		1	107	0
+}
+
+<KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	14
+	float	-181.302521 101.465294 137.835602 150.184036 137.668640 1.000000 93.865013 -20.224216
+	float	5.335272 62.576744 84.478439 98.558266 1042.039429 133.999939 
+}
+
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	light3_3
+	light_type	point
+	light_pos_x	1	0	0
+	light_pos_y	1	1	0
+	light_pos_z	1	2	0
+	light_r_param	1	3	0
+	light_g_param	1	3	0
+	light_b_param	1	4	0
+	light_visible	1	5	0
+}
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	1
+	name	light3_3_1
+	light_type	point
+	light_pos_x	1	0	0
+	light_pos_y	1	1	0
+	light_pos_z	1	2	0
+	light_r_param	1	3	0
+	light_g_param	1	3	0
+	light_b_param	1	4	0
+	light_visible	1	5	0
+}
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	2
+	name	light4_3
+	light_type	point
+	light_pos_x	1	6	0
+	light_pos_y	1	7	0
+	light_pos_z	1	8	0
+	light_r_param	1	9	0
+	light_g_param	1	10	0
+	light_b_param	1	11	0
+	light_visible	1	5	0
+}
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	3
+	name	light4_3_1
+	light_type	point
+	light_pos_x	1	6	0
+	light_pos_y	1	12	0
+	light_pos_z	1	8	0
+	light_r_param	1	13	0
+	light_g_param	1	13	0
+	light_b_param	1	13	0
+	light_visible	1	5	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.180000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	1
+	float	10000.000000 
+}
+
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	light3_3
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	1
+	name	light3_3_1
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	2
+	name	light4_3
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	3
+	name	light4_3_1
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+

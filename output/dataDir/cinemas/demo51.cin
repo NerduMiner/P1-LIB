@@ -1,0 +1,27 @@
+// Movie flags
+type 	0
+flags 	69
+
+// Scene files
+addScene {	scene	cinemas/demo51/na_dead1.dsk
+			}
+
+// Actor files
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo51/demo51.anm
+			anims	cinemas/demo51/demo51.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	219
+			flags	3
+			actor	pikis/nv3Model.mod
+			acflags	3
+			anim	2	0
+			keys	3	{	
+					0	5	1	217
+					0	9	0	198
+					0	11	0	217
+						}
+			}
+

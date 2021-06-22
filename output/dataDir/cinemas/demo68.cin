@@ -1,0 +1,48 @@
+// Movie flags
+type 	0
+flags 	125
+
+// Scene files
+addScene {	scene	cinemas/demo68/py_bom1.dsk
+			}
+
+addScene {	scene	cinemas/demo68/py_bom2.dsk
+			}
+
+// Actor files
+addActor {	shape	pikis/yelModel.mod
+			bundle	cinemas/demo68/demo68.anm
+			anims	cinemas/demo68/demo68.bin
+			}
+
+addActor {	shape	objects/bomb/bomb.mod
+			bundle	cinemas/demo68/bomb.anm
+			anims	cinemas/demo68/bomb.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	89
+			flags	3
+			actor	pikis/yelModel.mod
+			acflags	130
+			anim	2	0
+			actor	objects/bomb/bomb.mod
+			acflags	2
+			anim	2	0
+			keys	1	{	
+					0	0	16	87
+						}
+			}
+
+addCut {	cut		1	0	179
+			flags	5
+			actor	pikis/yelModel.mod
+			acflags	130
+			anim	1	1
+			actor	objects/bomb/bomb.mod
+			acflags	2
+			anim	1	1
+			keys	0	{	
+						}
+			}
+

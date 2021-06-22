@@ -1,0 +1,43 @@
+// Movie flags
+type 	0
+flags 	0
+
+// Scene files
+addScene {	scene	cinemas/opening/opening.dsk
+			}
+
+// Actor files
+addActor {	shape	cinemas/opening/opening.mod
+			anims	cinemas/opening/opening.bin
+			}
+
+addActor {	shape	cinemas/titles/logo.mod
+			anims	cinemas/titles/logo.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	209
+			flags	2
+			actor	cinemas/opening/opening.mod
+			acflags	2
+			anim	1	-1
+			actor	cinemas/titles/logo.mod
+			acflags	258
+			anim	1	-1
+			keys	1	{	
+					0	0	0	75
+						}
+			}
+
+addCut {	cut		0	207	209
+			flags	5
+			actor	cinemas/opening/opening.mod
+			acflags	2
+			anim	1	0
+			actor	cinemas/titles/logo.mod
+			acflags	258
+			anim	1	-1
+			keys	0	{	
+						}
+			}
+

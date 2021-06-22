@@ -1,0 +1,111 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/data/ÉfÉÇÉVÅ[Éì/demo78/dm_78
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/10/06
+	time	01:14:32
+	host	MAKITAS-ZPRO
+	magnify	1.000000
+	numframes	220
+	numcameras	1
+	numAmbLights	0
+	numDifLights	1
+	numfogs		0
+	numLayerFogs	0
+	playmode	loop
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	105
+	float	0.000000 -422.729126 -1.072998 18.000000 -433.429047 -34.087830 147.000000 -685.091431
+	float	-2.136841 158.000000 -685.127197 0.000000 219.000000 -685.127197 0.000000 220.000000
+	float	-422.729126 0.000000 0.000000 189.493347 -0.204620 98.000000 152.730957 -13.612518
+	float	149.000000 139.457062 0.000000 219.000000 139.457062 0.000000 220.000000 189.493347
+	float	0.000000 0.000000 1653.839844 -0.043945 97.000000 1747.864868 92.221069 105.000000
+	float	1776.264526 120.856934 147.000000 1921.959717 8.395386 151.000000 1922.101196 0.000000
+	float	219.000000 1922.101196 0.000000 220.000000 1653.839844 0.000000 0.000000 -552.507080
+	float	-0.139160 145.000000 -586.436890 -0.820313 177.000000 -586.478210 0.000000 219.000000
+	float	-586.478210 0.000000 220.000000 -552.507080 0.000000 0.000000 12.278109 0.103855
+	float	148.000000 37.668461 0.051956 219.000000 37.668461 0.000000 220.000000 12.278109
+	float	0.000000 0.000000 1983.884033 -0.025635 150.000000 1977.208374 0.000000 219.000000
+	float	1977.208374 0.000000 220.000000 1983.884033 0.000000 0.000000 0.000000 30.000000
+	float	0.000000 219.000000 30.000000 0.000000 220.000000 45.000000 0.000000 0.100000
+	float	32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	6	0	0
+	cam_pos_y	5	18	0
+	cam_pos_z	7	33	0
+	cam_lat_x	5	54	0
+	cam_lat_y	4	69	0
+	cam_lat_z	4	81	0
+	cam_twist	1	93	0
+	cam_fovy	3	94	0
+	cam_near	1	103	0
+	cam_far		1	104	0
+}
+
+<KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	5
+	float	-1119.012085 383.000000 3120.906250 255.000000 1.000000 
+}
+
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	light1
+	light_type	point
+	light_pos_x	1	0	0
+	light_pos_y	1	1	0
+	light_pos_z	1	2	0
+	light_r_param	1	3	0
+	light_g_param	1	3	0
+	light_b_param	1	3	0
+	light_visible	1	4	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.333300
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	1
+	float	10000.000000 
+}
+
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	light1
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+

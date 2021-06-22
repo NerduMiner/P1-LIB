@@ -1,0 +1,30 @@
+// Movie flags
+type 	0
+flags 	128
+
+// Scene files
+addScene {	scene	cinemas/demo02/ufo_fall.dsk
+			}
+
+// Actor files
+addActor {	shape	cinemas/demo36/resultbg.mod
+			}
+
+addActor {	shape	cinemas/demo02/deadufo.mod
+			bundle	cinemas/demo02/deadufo.anm
+			anims	cinemas/demo02/deadufo.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	419
+			flags	3
+			actor	cinemas/demo36/resultbg.mod
+			acflags	2
+			anim	1	-1
+			actor	cinemas/demo02/deadufo.mod
+			acflags	65538
+			anim	2	0
+			keys	0	{	
+						}
+			}
+

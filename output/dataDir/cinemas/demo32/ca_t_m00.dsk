@@ -1,0 +1,100 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/Softimage/SOFT3D_3.9/demo32_35/ca_t_m00
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/09/18
+	time	11:28:56
+	host	MORI-EXP
+	magnify	1.000000
+	numframes	359
+	numcameras	1
+	numAmbLights	0
+	numDifLights	1
+	numfogs		0
+	numLayerFogs	0
+	playmode	onetime
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	54
+	float	327.961853 293.529236 1828.044922 0.000000 187.789825 0.000000 79.000000 187.789825
+	float	0.000000 92.000000 183.678360 -20.164719 298.000000 -285.946930 -1.766968 311.000000
+	float	-285.976501 0.000000 359.000000 -285.976501 0.000000 0.000000 69.342285 0.000000
+	float	80.000000 69.342285 -0.064888 299.000000 0.000000 -0.064895 359.000000 0.000000
+	float	0.000000 0.000000 1861.916870 0.000000 79.000000 1861.916870 0.000000 96.000000
+	float	1856.302002 -20.515137 298.000000 1493.343262 -1.375122 315.000000 1493.320313 0.000000
+	float	359.000000 1493.320313 0.000000 35.000000 0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	1	0	0
+	cam_pos_y	1	1	0
+	cam_pos_z	1	2	0
+	cam_lat_x	6	3	0
+	cam_lat_y	4	21	0
+	cam_lat_z	6	33	0
+	cam_twist	1	28	0
+	cam_fovy	1	51	0
+	cam_near	1	52	0
+	cam_far		1	53	0
+}
+
+<KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	3
+	float	1.000000 7.920000 255.000000 
+}
+
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	inf_light1_3
+	light_type	infinite
+	light_pos_x	1	0	0
+	light_pos_y	1	1	0
+	light_pos_z	1	0	0
+	light_r_param	1	2	0
+	light_g_param	1	2	0
+	light_b_param	1	2	0
+	light_visible	1	0	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.270000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	inf_light1_3
+	light_type	infinite
+	si_light_ShadowType	none
+}
+

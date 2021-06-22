@@ -1,0 +1,37 @@
+// Movie flags
+type 	0
+flags 	125
+
+// Scene files
+addScene {	scene	cinemas/demo11/pb_wait1.dsk
+			}
+
+addScene {	scene	cinemas/demo11/pb_wait2.dsk
+			}
+
+// Actor files
+addActor {	shape	pikis/bluModel.mod
+			bundle	cinemas/demo11/blupiki.anm
+			anims	cinemas/demo11/blupiki.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	209
+			flags	2
+			actor	pikis/bluModel.mod
+			acflags	130
+			anim	2	0
+			keys	1	{	
+					0	0	15	155
+						}
+			}
+
+addCut {	cut		1	0	60
+			flags	5
+			actor	pikis/bluModel.mod
+			acflags	130
+			anim	1	1
+			keys	0	{	
+						}
+			}
+

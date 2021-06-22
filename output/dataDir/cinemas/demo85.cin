@@ -1,0 +1,36 @@
+// Movie flags
+type 	0
+flags 	384
+
+// Scene files
+addScene {	scene	cinemas/demo36/ship_t00.dsk
+			}
+
+addScene {	scene	cinemas/demo36/ship_l00.dsk
+			}
+
+// Actor files
+addActor {	shape	objects/goal/goal.mod
+			bundle	cinemas/demo84/yellow.anm
+			anims	cinemas/demo84/yellow.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	419
+			flags	3
+			actor	objects/goal/goal.mod
+			acflags	528
+			anim	2	0
+			keys	0	{	
+						}
+			}
+
+addCut {	cut		1	0	8
+			flags	5
+			actor	objects/goal/goal.mod
+			acflags	16
+			anim	1	1
+			keys	0	{	
+						}
+			}
+

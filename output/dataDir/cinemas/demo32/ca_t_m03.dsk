@@ -1,0 +1,109 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/Softimage/SOFT3D_3.9/demo32_35/ca_t_m03
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/09/30
+	time	16:34:03
+	host	MORI-EXP
+	magnify	1.000000
+	numframes	359
+	numcameras	1
+	numAmbLights	0
+	numDifLights	1
+	numfogs		0
+	numLayerFogs	0
+	playmode	onetime
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	123
+	float	0.000000 -37.747227 0.000000 99.000000 -37.747227 0.000000 112.000000 -33.570358
+	float	20.287457 248.000000 189.055832 1.822357 261.000000 189.086365 0.000000 359.000000
+	float	189.086365 0.000000 0.000000 367.804443 0.000000 99.000000 367.804443 0.000000
+	float	111.000000 371.681519 20.595245 248.000000 617.166443 2.003174 260.000000 617.200012
+	float	0.000000 359.000000 617.200012 0.000000 0.000000 -27.692940 0.000000 99.000000
+	float	-27.692940 0.000000 110.000000 -24.259586 20.113020 248.000000 238.250427 2.136841
+	float	259.000000 238.286209 0.000000 359.000000 238.286209 0.000000 0.000000 -196.896545
+	float	0.000000 99.000000 -196.896545 0.000000 106.000000 -194.814514 20.370026 198.000000
+	float	-0.059662 3.567810 206.000000 0.000214 0.000000 359.000000 0.000214 0.000000
+	float	0.000000 71.251572 0.000000 99.000000 71.251572 0.000000 116.000000 66.269760
+	float	-17.549171 198.000000 0.019660 -1.290969 216.000000 -0.001998 0.000000 359.000000
+	float	-0.001998 0.000000 0.000000 -189.617798 0.000000 99.000000 -189.617798 0.000000
+	float	107.000000 -186.907837 22.642822 198.000000 -0.057739 3.435059 206.000000 -0.000122
+	float	0.000000 359.000000 -0.000122 0.000000 0.000000 0.000000 20.000000 0.000000
+	float	99.000000 20.000000 0.000000 139.000000 40.000000 2.488124 359.000000 45.000000
+	float	0.000000 0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	6	0	0
+	cam_pos_y	6	18	0
+	cam_pos_z	6	36	0
+	cam_lat_x	6	54	0
+	cam_lat_y	6	72	0
+	cam_lat_z	6	90	0
+	cam_twist	1	108	0
+	cam_fovy	4	109	0
+	cam_near	1	121	0
+	cam_far		1	122	0
+}
+
+<KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	2
+	float	1.000000 255.000000 
+}
+
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	inf_light1
+	light_type	infinite
+	light_pos_x	1	0	0
+	light_pos_y	1	0	0
+	light_pos_z	1	0	0
+	light_r_param	1	1	0
+	light_g_param	1	1	0
+	light_b_param	1	1	0
+	light_visible	1	0	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.280000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	inf_light1
+	light_type	infinite
+	si_light_ShadowType	none
+}
+

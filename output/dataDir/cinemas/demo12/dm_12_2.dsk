@@ -1,0 +1,176 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/data/ÉfÉÇÉVÅ[Éì/demo12/dm_12_2
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/09/04
+	time	17:16:51
+	host	MAKITAS-ZPRO
+	magnify	1.000000
+	numframes	2
+	numcameras	1
+	numAmbLights	0
+	numDifLights	4
+	numfogs		0
+	numLayerFogs	0
+	playmode	loop
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	10
+	float	0.222150 174.443100 380.129242 0.960000 29.119946 0.912000 0.000000 30.000000
+	float	0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	1	0	0
+	cam_pos_y	1	1	0
+	cam_pos_z	1	2	0
+	cam_lat_x	1	3	0
+	cam_lat_y	1	4	0
+	cam_lat_z	1	5	0
+	cam_twist	1	6	0
+	cam_fovy	1	7	0
+	cam_near	1	8	0
+	cam_far		1	9	0
+}
+
+<KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	21
+	float	60.000000 100.000000 300.496704 255.000000 200.245377 1.000000 0.000000 3000.500000
+	float	3000.000000 1000.000000 300.000000 -3000.000000 240.890076 221.000076 171.275085 159.099930
+	float	-2500.668945 -3733.020752 155.889923 165.834915 135.999908 
+}
+
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	light1
+	light_type	point
+	light_pos_x	1	0	0
+	light_pos_y	1	1	0
+	light_pos_z	1	2	0
+	light_r_param	1	3	0
+	light_g_param	1	3	0
+	light_b_param	1	4	0
+	light_visible	1	5	0
+}
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	1
+	name	light1_1_1_3
+	light_type	point
+	light_pos_x	1	6	0
+	light_pos_y	1	7	0
+	light_pos_z	1	8	0
+	light_r_param	1	3	0
+	light_g_param	1	3	0
+	light_b_param	1	3	0
+	light_visible	1	5	0
+}
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	2
+	name	light1_2_1
+	light_type	point
+	light_pos_x	1	9	0
+	light_pos_y	1	10	0
+	light_pos_z	1	11	0
+	light_r_param	1	12	0
+	light_g_param	1	13	0
+	light_b_param	1	14	0
+	light_visible	1	5	0
+}
+
+<KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	3
+	name	light2_1_1_3
+	light_type	point
+	light_pos_x	1	15	0
+	light_pos_y	1	16	0
+	light_pos_z	1	17	0
+	light_r_param	1	18	0
+	light_g_param	1	19	0
+	light_b_param	1	20	0
+	light_visible	1	5	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.180000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_ANM>
+{
+	size	1
+	float	10000.000000 
+}
+
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	0
+	name	light1
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	1
+	name	light1_1_1_3
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	2
+	name	light1_2_1
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+
+<EX_SI_KEY_DIFFUSE_LIGHT_TABLE>
+{
+	index	3
+	name	light2_1_1_3
+	light_type	point
+	si_light_ShadowType	none
+	si_light_AreaType	none
+	si_light_start		1	0	0
+	si_light_end		1	0	0
+}
+

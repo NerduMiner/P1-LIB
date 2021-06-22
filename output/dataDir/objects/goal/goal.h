@@ -1,0 +1,11 @@
+enum {	JNT_dam = 0,
+		JNT_body,
+		JNT_tex,
+		JNT_flow,
+		JNT_asi3jnt,
+		JNT_asi3,
+		JNT_asi2jnt,
+		JNT_asi2,
+		JNT_asi1jnt,
+		JNT_asi1,
+		};

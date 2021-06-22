@@ -1,0 +1,46 @@
+// Movie flags
+type 	0
+flags 	128
+
+// Scene files
+addScene {	scene	cinemas/demo77/demo77.dsk
+			}
+
+// Actor files
+addActor {	shape	cinemas/demo01/spacebg.mod
+			}
+
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo77/navi.anm
+			anims	cinemas/demo77/navi.bin
+			}
+
+addActor {	shape	cinemas/demo01/ufo.mod
+			bundle	cinemas/demo77/ufo.anm
+			anims	cinemas/demo77/ufo.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	1199
+			flags	3
+			actor	cinemas/demo01/spacebg.mod
+			acflags	2
+			anim	1	-1
+			actor	pikis/nv3Model.mod
+			acflags	131075
+			anim	2	0
+			actor	cinemas/demo01/ufo.mod
+			acflags	2
+			anim	2	0
+			keys	2	{	
+					0	12	0	1197
+					0	10	0	0
+						}
+			}
+
+addCut {	cut		0	1197	1199
+			flags	5
+			keys	0	{	
+						}
+			}
+

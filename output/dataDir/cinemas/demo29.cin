@@ -1,0 +1,27 @@
+// Movie flags
+type 	0
+flags 	122948
+
+// Scene files
+addScene {	scene	cinemas/demo29/dayend01.dsk
+			}
+
+// Actor files
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo29/dayend01.anm
+			anims	cinemas/demo29/dayend01.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	599
+			flags	3
+			actor	pikis/nv3Model.mod
+			acflags	34
+			anim	2	0
+			keys	3	{	
+					1	0	0	216
+					1	1	0	461
+					1	1	6	551
+						}
+			}
+

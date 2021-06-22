@@ -1,0 +1,32 @@
+// Movie flags
+type 	0
+flags 	196
+
+// Scene files
+addScene {	scene	cinemas/demo114/ship_t05.dsk
+			}
+
+// Actor files
+addActor {	shape	cinemas/demo36/resultbg.mod
+			}
+
+addActor {	shape	objects/ufo/ufo0705.mod
+			bundle	cinemas/demo114/ufo.anm
+			anims	cinemas/demo114/ufo.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	289
+			flags	3
+			actor	cinemas/demo36/resultbg.mod
+			acflags	2
+			anim	1	-1
+			actor	objects/ufo/ufo0705.mod
+			acflags	66
+			anim	2	0
+			keys	2	{	
+					1	1	3	0
+					0	9	0	278
+						}
+			}
+

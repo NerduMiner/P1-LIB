@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PKHeader">
+      <UniqueIdentifier>{275d306b-9e8a-46f7-acae-8bd67f6a8456}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AgeServer.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimCacheInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimContext.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimData.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimDca.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimDck.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimFrameCacher.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimJoint.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnimPalette.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AnmobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ANode.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AppWindow.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AtxCommandStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AtxDirectRouter.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AtxFileStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AtxRouter.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AtxStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AyuCache.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AyuHeap.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\AyuStack.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BaseApp.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BaseCollTriInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BaseRoomInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BaseScalingSystem.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BaseShape.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BinobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BoundBox.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BufferedInputStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BufferedOutputStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\BufferedStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CachedShape.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CacheInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CacheTexture.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CamDataInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Camera.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ClassicScalingSystem.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CmdStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CollGroup.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CollTriInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Colour.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ComboBox.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Controller.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ControllerMgr.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CoreNode.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CullFrustum.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CullingPlane.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\CurveSection.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\DataChunk.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\DispList.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\DlobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\DrawInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\DynCollObject.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\EditBox.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\EditNode.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Envelope.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\FaceNode.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\FntobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Font.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\FontChar.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\GameApp.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\GfxInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\GfxObject.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\GfxobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Graphics.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\HorzSplitBar.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ID32.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\InterpKeyInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Joint.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\KnotPoint.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\KRect.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\KSegment.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\KTri.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LFInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LFlareGroup.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Light.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LightCamera.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LightDataInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LightFlare.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LightGroup.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LinkedRoomInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\LodInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Material.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\MaterialHandler.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\MatobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Matrix3f.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Matrix4f.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\MemHead.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\MemInfoNode.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Mesh.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Module.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ModuleMgr.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\MtxGroup.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Node.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\NodeMgr.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ObjCollInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ObjMgr.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\OptionBox.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Plane.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWAlphaAnimInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWAlphaShortAnimInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWColourAnimInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWColourShortAnimInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWCombiner.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWKeyInfoF32.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWKeyInfoS10.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWKeyInfoU8.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWLightingInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWPeInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWPolygonColourInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTevColReg.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTevInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTevStage.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTexAnimInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTexGenData.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTextureData.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\PVWTextureInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Quat.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RamStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RandomAccessStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RectArea.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RenderWindow.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RoomInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RouteGroup.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RouteLink.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\RoutePoint.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\SceneData.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Shape.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ShapeDynMaterials.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ShortColour.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ShpobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\SoftImageScalingSystem.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\SplitBar.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\SRT.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\SRTNode.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\StdSystem.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Stream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\String.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\System.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TcpStream.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TexAttr.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TexCacheInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TexImg.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TexobjInfo.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Texture.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TextureCacher.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\TimerInf.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Timers.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\ToolWindow.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\UIFrame.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\UIMgr.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\UIWindow.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Vector2f.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Vector2i.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\Vector3f.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\VertSplitBar.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\VtxMatrix.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\PKHeader\WSocket.h">
+      <Filter>Header Files\PKHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

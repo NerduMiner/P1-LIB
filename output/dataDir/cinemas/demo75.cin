@@ -1,0 +1,87 @@
+// Movie flags
+type 	0
+flags 	68
+
+// Scene files
+addScene {	scene	cinemas/demo75/d75.dsk
+			}
+
+// Actor files
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo75/navi.anm
+			anims	cinemas/demo75/navi.bin
+			}
+
+addActor {	shape	pikis/bluModel.mod
+			bundle	cinemas/demo75/blue.anm
+			anims	cinemas/demo75/blue.bin
+			}
+
+addActor {	shape	pikis/redModel.mod
+			bundle	cinemas/demo75/red.anm
+			anims	cinemas/demo75/red.bin
+			}
+
+addActor {	shape	pikis/yelModel.mod
+			bundle	cinemas/demo75/yellow.anm
+			anims	cinemas/demo75/yellow.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	999
+			flags	3
+			actor	pikis/nv3Model.mod
+			acflags	3
+			anim	2	0
+			actor	pikis/redModel.mod
+			acflags	2
+			anim	2	1
+			actor	pikis/redModel.mod
+			acflags	2
+			anim	2	2
+			actor	pikis/redModel.mod
+			acflags	2
+			anim	2	3
+			actor	pikis/redModel.mod
+			acflags	2
+			anim	2	0
+			actor	pikis/bluModel.mod
+			acflags	2
+			anim	2	0
+			actor	pikis/bluModel.mod
+			acflags	2
+			anim	2	1
+			actor	pikis/bluModel.mod
+			acflags	2
+			anim	2	2
+			actor	pikis/bluModel.mod
+			acflags	2
+			anim	2	3
+			actor	pikis/bluModel.mod
+			acflags	2
+			anim	2	4
+			actor	pikis/bluModel.mod
+			acflags	2
+			anim	2	5
+			actor	pikis/yelModel.mod
+			acflags	2
+			anim	2	0
+			actor	pikis/yelModel.mod
+			acflags	2
+			anim	2	1
+			actor	pikis/yelModel.mod
+			acflags	2
+			anim	2	2
+			actor	pikis/yelModel.mod
+			acflags	2
+			anim	2	3
+			actor	pikis/redModel.mod
+			acflags	2
+			anim	2	4
+			keys	3	{	
+					1	1	0	895
+					1	1	6	990
+					0	9	0	988
+						}
+			}
+

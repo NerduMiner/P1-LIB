@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{47b24b99-9f1b-428a-8063-fa253865df68}</ProjectGuid>
+    <RootNamespace>AXIOTDLL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\output\plugins\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\output\plugins\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Includes/</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>../Libs/sysCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Includes/</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>../Libs/sysCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\attach_module.h" />
+    <ClInclude Include="..\Includes\PKHeader\AgeServer.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimCacheInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimContext.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimData.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimDca.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimDck.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimFrameCacher.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimJoint.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnimPalette.h" />
+    <ClInclude Include="..\Includes\PKHeader\AnmobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\ANode.h" />
+    <ClInclude Include="..\Includes\PKHeader\AppWindow.h" />
+    <ClInclude Include="..\Includes\PKHeader\AtxCommandStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\AtxDirectRouter.h" />
+    <ClInclude Include="..\Includes\PKHeader\AtxFileStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\AtxRouter.h" />
+    <ClInclude Include="..\Includes\PKHeader\AtxStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\AyuCache.h" />
+    <ClInclude Include="..\Includes\PKHeader\AyuHeap.h" />
+    <ClInclude Include="..\Includes\PKHeader\AyuStack.h" />
+    <ClInclude Include="..\Includes\PKHeader\BaseApp.h" />
+    <ClInclude Include="..\Includes\PKHeader\BaseCollTriInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\BaseRoomInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\BaseScalingSystem.h" />
+    <ClInclude Include="..\Includes\PKHeader\BaseShape.h" />
+    <ClInclude Include="..\Includes\PKHeader\BinobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\BoundBox.h" />
+    <ClInclude Include="..\Includes\PKHeader\BufferedInputStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\BufferedOutputStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\BufferedStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\CachedShape.h" />
+    <ClInclude Include="..\Includes\PKHeader\CacheInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\CacheTexture.h" />
+    <ClInclude Include="..\Includes\PKHeader\CamDataInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Camera.h" />
+    <ClInclude Include="..\Includes\PKHeader\ClassicScalingSystem.h" />
+    <ClInclude Include="..\Includes\PKHeader\CmdStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\CollGroup.h" />
+    <ClInclude Include="..\Includes\PKHeader\CollTriInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Colour.h" />
+    <ClInclude Include="..\Includes\PKHeader\ComboBox.h" />
+    <ClInclude Include="..\Includes\PKHeader\Controller.h" />
+    <ClInclude Include="..\Includes\PKHeader\ControllerMgr.h" />
+    <ClInclude Include="..\Includes\PKHeader\CoreNode.h" />
+    <ClInclude Include="..\Includes\PKHeader\CullFrustum.h" />
+    <ClInclude Include="..\Includes\PKHeader\CullingPlane.h" />
+    <ClInclude Include="..\Includes\PKHeader\CurveSection.h" />
+    <ClInclude Include="..\Includes\PKHeader\DataChunk.h" />
+    <ClInclude Include="..\Includes\PKHeader\DispList.h" />
+    <ClInclude Include="..\Includes\PKHeader\DlobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\DrawInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\DynCollObject.h" />
+    <ClInclude Include="..\Includes\PKHeader\EditBox.h" />
+    <ClInclude Include="..\Includes\PKHeader\EditNode.h" />
+    <ClInclude Include="..\Includes\PKHeader\Envelope.h" />
+    <ClInclude Include="..\Includes\PKHeader\FaceNode.h" />
+    <ClInclude Include="..\Includes\PKHeader\FntobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Font.h" />
+    <ClInclude Include="..\Includes\PKHeader\FontChar.h" />
+    <ClInclude Include="..\Includes\PKHeader\GameApp.h" />
+    <ClInclude Include="..\Includes\PKHeader\GfxInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\GfxObject.h" />
+    <ClInclude Include="..\Includes\PKHeader\GfxobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Graphics.h" />
+    <ClInclude Include="..\Includes\PKHeader\HorzSplitBar.h" />
+    <ClInclude Include="..\Includes\PKHeader\ID32.h" />
+    <ClInclude Include="..\Includes\PKHeader\InterpKeyInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Joint.h" />
+    <ClInclude Include="..\Includes\PKHeader\KnotPoint.h" />
+    <ClInclude Include="..\Includes\PKHeader\KRect.h" />
+    <ClInclude Include="..\Includes\PKHeader\KSegment.h" />
+    <ClInclude Include="..\Includes\PKHeader\KTri.h" />
+    <ClInclude Include="..\Includes\PKHeader\LFInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\LFlareGroup.h" />
+    <ClInclude Include="..\Includes\PKHeader\Light.h" />
+    <ClInclude Include="..\Includes\PKHeader\LightCamera.h" />
+    <ClInclude Include="..\Includes\PKHeader\LightDataInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\LightFlare.h" />
+    <ClInclude Include="..\Includes\PKHeader\LightGroup.h" />
+    <ClInclude Include="..\Includes\PKHeader\LinkedRoomInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\LodInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Material.h" />
+    <ClInclude Include="..\Includes\PKHeader\MaterialHandler.h" />
+    <ClInclude Include="..\Includes\PKHeader\MatobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Matrix3f.h" />
+    <ClInclude Include="..\Includes\PKHeader\Matrix4f.h" />
+    <ClInclude Include="..\Includes\PKHeader\MemHead.h" />
+    <ClInclude Include="..\Includes\PKHeader\MemInfoNode.h" />
+    <ClInclude Include="..\Includes\PKHeader\Mesh.h" />
+    <ClInclude Include="..\Includes\PKHeader\Module.h" />
+    <ClInclude Include="..\Includes\PKHeader\ModuleMgr.h" />
+    <ClInclude Include="..\Includes\PKHeader\MtxGroup.h" />
+    <ClInclude Include="..\Includes\PKHeader\Node.h" />
+    <ClInclude Include="..\Includes\PKHeader\NodeMgr.h" />
+    <ClInclude Include="..\Includes\PKHeader\ObjCollInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\ObjMgr.h" />
+    <ClInclude Include="..\Includes\PKHeader\OptionBox.h" />
+    <ClInclude Include="..\Includes\PKHeader\Plane.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWAlphaAnimInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWAlphaShortAnimInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWColourAnimInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWColourShortAnimInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWCombiner.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWKeyInfoF32.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWKeyInfoS10.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWKeyInfoU8.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWLightingInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWPeInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWPolygonColourInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTevColReg.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTevInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTevStage.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTexAnimInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTexGenData.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTextureData.h" />
+    <ClInclude Include="..\Includes\PKHeader\PVWTextureInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Quat.h" />
+    <ClInclude Include="..\Includes\PKHeader\RamStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\RandomAccessStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\RectArea.h" />
+    <ClInclude Include="..\Includes\PKHeader\RenderWindow.h" />
+    <ClInclude Include="..\Includes\PKHeader\RoomInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\RouteGroup.h" />
+    <ClInclude Include="..\Includes\PKHeader\RouteLink.h" />
+    <ClInclude Include="..\Includes\PKHeader\RoutePoint.h" />
+    <ClInclude Include="..\Includes\PKHeader\SceneData.h" />
+    <ClInclude Include="..\Includes\PKHeader\Shape.h" />
+    <ClInclude Include="..\Includes\PKHeader\ShapeDynMaterials.h" />
+    <ClInclude Include="..\Includes\PKHeader\ShortColour.h" />
+    <ClInclude Include="..\Includes\PKHeader\ShpobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\SoftImageScalingSystem.h" />
+    <ClInclude Include="..\Includes\PKHeader\SplitBar.h" />
+    <ClInclude Include="..\Includes\PKHeader\SRT.h" />
+    <ClInclude Include="..\Includes\PKHeader\SRTNode.h" />
+    <ClInclude Include="..\Includes\PKHeader\StdSystem.h" />
+    <ClInclude Include="..\Includes\PKHeader\Stream.h" />
+    <ClInclude Include="..\Includes\PKHeader\String.h" />
+    <ClInclude Include="..\Includes\PKHeader\System.h" />
+    <ClInclude Include="..\Includes\PKHeader\TcpStream.h" />
+    <ClInclude Include="..\Includes\PKHeader\TexAttr.h" />
+    <ClInclude Include="..\Includes\PKHeader\TexCacheInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\TexImg.h" />
+    <ClInclude Include="..\Includes\PKHeader\TexobjInfo.h" />
+    <ClInclude Include="..\Includes\PKHeader\Texture.h" />
+    <ClInclude Include="..\Includes\PKHeader\TextureCacher.h" />
+    <ClInclude Include="..\Includes\PKHeader\TimerInf.h" />
+    <ClInclude Include="..\Includes\PKHeader\Timers.h" />
+    <ClInclude Include="..\Includes\PKHeader\ToolWindow.h" />
+    <ClInclude Include="..\Includes\PKHeader\UIFrame.h" />
+    <ClInclude Include="..\Includes\PKHeader\UIMgr.h" />
+    <ClInclude Include="..\Includes\PKHeader\UIWindow.h" />
+    <ClInclude Include="..\Includes\PKHeader\Vector2f.h" />
+    <ClInclude Include="..\Includes\PKHeader\Vector2i.h" />
+    <ClInclude Include="..\Includes\PKHeader\Vector3f.h" />
+    <ClInclude Include="..\Includes\PKHeader\VertSplitBar.h" />
+    <ClInclude Include="..\Includes\PKHeader\VtxMatrix.h" />
+    <ClInclude Include="..\Includes\PKHeader\WSocket.h" />
+    <ClInclude Include="..\Includes\types.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

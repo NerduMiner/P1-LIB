@@ -1,0 +1,27 @@
+// Movie flags
+type 	0
+flags 	69
+
+// Scene files
+addScene {	scene	cinemas/demo46/dm_46_1.dsk
+			}
+
+// Actor files
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo46/demo46.anm
+			anims	cinemas/demo46/demo46.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	169
+			flags	3
+			actor	pikis/nv3Model.mod
+			acflags	3
+			anim	2	0
+			keys	3	{	
+					0	5	0	167
+					0	9	0	150
+					0	11	0	167
+						}
+			}
+

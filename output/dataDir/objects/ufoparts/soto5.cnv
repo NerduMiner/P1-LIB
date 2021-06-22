@@ -1,0 +1,6 @@
+importdmd Z:\conversion\items\ufoparts\soto5.dmd
+importanimfolder Z:\conversion\items\ufoparts\msoto5
+loadini Z:\conversion\items\ufoparts\ini\soto5.ini
+importdvw Z:\conversion\items\ufoparts\dvw\soto5.dvw
+joint_names
+exportmod Z:\conversion\dataDir\objects\ufoparts\soto5.mod

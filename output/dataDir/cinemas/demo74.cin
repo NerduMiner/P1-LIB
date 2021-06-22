@@ -1,0 +1,110 @@
+// Movie flags
+type 	0
+flags 	1048645
+
+// Scene files
+addScene {	scene	cinemas/demo74/demo74.dsk
+			}
+
+// Actor files
+addActor {	shape	objects/goal/goal.mod
+			bundle	cinemas/demo74/onyon.anm
+			anims	cinemas/demo74/onyon.bin
+			}
+
+addActor {	shape	objects/pikihead/navihead.mod
+			bundle	cinemas/demo74/tane.anm
+			anims	cinemas/demo74/tane.bin
+			}
+
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo74/navi.anm
+			anims	cinemas/demo74/navi.bin
+			}
+
+addActor {	shape	pikis/redModel.mod
+			bundle	cinemas/demo74/redpiki.anm
+			anims	cinemas/demo74/redpiki.bin
+			}
+
+addActor {	shape	pikis/yelModel.mod
+			bundle	cinemas/demo74/yelpiki.anm
+			anims	cinemas/demo74/yelpiki.bin
+			}
+
+addActor {	shape	pikis/bluModel.mod
+			bundle	cinemas/demo74/blupiki.anm
+			anims	cinemas/demo74/blupiki.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	1100
+			flags	3
+			actor	objects/goal/goal.mod
+			acflags	8
+			anim	2	0
+			actor	pikis/nv3Model.mod
+			acflags	3
+			anim	2	0
+			actor	objects/pikihead/navihead.mod
+			acflags	2
+			anim	2	0
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	0
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	1
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	2
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	3
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	4
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	5
+			actor	pikis/redModel.mod
+			acflags	4098
+			anim	2	6
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	0
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	1
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	2
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	3
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	4
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	5
+			actor	pikis/yelModel.mod
+			acflags	8194
+			anim	2	6
+			actor	pikis/bluModel.mod
+			acflags	16386
+			anim	2	0
+			actor	pikis/bluModel.mod
+			acflags	16386
+			anim	2	1
+			actor	pikis/bluModel.mod
+			acflags	16386
+			anim	2	2
+			actor	pikis/bluModel.mod
+			acflags	16386
+			anim	2	3
+			keys	1	{	
+					0	9	0	1089
+						}
+			}
+

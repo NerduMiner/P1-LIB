@@ -1,0 +1,64 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/Softimage/SOFT3D_3.9/demo73/demo73_t
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/10/26
+	time	15:08:01
+	host	MORI-EXP
+	magnify	1.000000
+	numframes	449
+	numcameras	1
+	numAmbLights	0
+	numDifLights	0
+	numfogs		0
+	numLayerFogs	0
+	playmode	onetime
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	44
+	float	0.000000 0.000000 450.000000 -11.519869 244.000015 1817.000000 61.481251 345.220062
+	float	1942.821045 0.618562 395.000000 450.000000 0.408265 410.559998 450.000000 0.656341
+	float	414.259918 521.500000 0.000000 417.759979 450.000000 0.000000 421.159973 497.500153
+	float	0.000000 424.059875 450.000000 0.000000 426.459839 476.600098 0.000000 429.359863
+	float	450.000000 0.000000 432.359955 461.400024 0.000000 435.259979 450.000000 0.000000
+	float	-1000.000000 25.000000 0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	1	0	0
+	cam_pos_y	1	0	0
+	cam_pos_z	1	0	0
+	cam_lat_x	1	0	0
+	cam_lat_y	13	1	0
+	cam_lat_z	1	40	0
+	cam_twist	1	0	0
+	cam_fovy	1	41	0
+	cam_near	1	42	0
+	cam_far		1	43	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.280000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+

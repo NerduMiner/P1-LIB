@@ -1,0 +1,86 @@
+// Movie flags
+type 	0
+flags 	196
+
+// Scene files
+addScene {	scene	cinemas/demo76/dm_76.dsk
+			}
+
+// Actor files
+addActor {	shape	cinemas/demo76/chikyu.mod
+			}
+
+addActor {	shape	objects/goal/goal.mod
+			bundle	cinemas/demo76/onyon.anm
+			anims	cinemas/demo76/onyon.bin
+			}
+
+addActor {	shape	cinemas/demo01/ufo.mod
+			bundle	cinemas/demo76/ufo.anm
+			anims	cinemas/demo76/ufo.bin
+			}
+
+addActor {	shape	pikis/nv3Model.mod
+			bundle	cinemas/demo76/navi.anm
+			anims	cinemas/demo76/navi.bin
+			}
+
+// Scene cuts
+addCut {	cut		0	0	530
+			flags	3
+			actor	cinemas/demo76/chikyu.mod
+			acflags	2
+			anim	1	-1
+			actor	cinemas/demo01/ufo.mod
+			acflags	2
+			anim	2	0
+			actor	pikis/nv3Model.mod
+			acflags	2
+			anim	2	0
+			actor	objects/goal/goal.mod
+			acflags	262660
+			anim	2	0
+			actor	objects/goal/goal.mod
+			acflags	262664
+			anim	2	1
+			actor	objects/goal/goal.mod
+			acflags	262672
+			anim	2	2
+			actor	objects/goal/goal.mod
+			acflags	262660
+			anim	2	3
+			actor	objects/goal/goal.mod
+			acflags	262664
+			anim	2	4
+			actor	objects/goal/goal.mod
+			acflags	262672
+			anim	2	5
+			actor	objects/goal/goal.mod
+			acflags	262660
+			anim	2	6
+			actor	objects/goal/goal.mod
+			acflags	262664
+			anim	2	7
+			actor	objects/goal/goal.mod
+			acflags	262672
+			anim	2	8
+			actor	objects/goal/goal.mod
+			acflags	262660
+			anim	2	9
+			actor	objects/goal/goal.mod
+			acflags	262664
+			anim	2	10
+			actor	objects/goal/goal.mod
+			acflags	262672
+			anim	2	11
+			actor	objects/goal/goal.mod
+			acflags	262660
+			anim	2	12
+			actor	objects/goal/goal.mod
+			acflags	262664
+			anim	2	13
+			keys	1	{	
+					0	10	0	1
+						}
+			}
+

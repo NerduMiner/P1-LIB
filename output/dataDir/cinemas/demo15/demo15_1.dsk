@@ -1,0 +1,66 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	D:/piki/demo/demo15/demo15_1
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/08/17
+	time	17:39:45
+	host	MAEKAWAS-EXP
+	magnify	1.000000
+	numframes	390
+	numcameras	1
+	numAmbLights	0
+	numDifLights	0
+	numfogs		0
+	numLayerFogs	0
+	playmode	loop
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	58
+	float	0.000000 -271.424652 0.158386 389.000000 -3.795990 0.158386 390.000000 -271.424652
+	float	0.000000 0.000000 131.172424 0.158844 389.000000 398.529175 0.159302 390.000000
+	float	131.172424 0.000000 0.000000 1200.011353 -0.205078 389.000000 857.323120 -0.203247
+	float	390.000000 1200.011353 0.000000 0.000000 -352.414612 0.004578 389.000000 -344.388550
+	float	0.004578 390.000000 -352.414612 0.000000 0.000000 -7.169220 -0.000644 389.000000
+	float	-8.244183 -0.000629 390.000000 -7.169220 0.000000 0.000000 1055.926880 -0.175781
+	float	389.000000 762.356079 -0.173950 390.000000 1055.926880 0.000000 0.000000 45.000000
+	float	0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	3	0	0
+	cam_pos_y	3	9	0
+	cam_pos_z	3	18	0
+	cam_lat_x	3	27	0
+	cam_lat_y	3	36	0
+	cam_lat_z	3	45	0
+	cam_twist	1	54	0
+	cam_fovy	1	55	0
+	cam_near	1	56	0
+	cam_far		1	57	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.280000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+

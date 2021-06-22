@@ -1,0 +1,26 @@
+// Movie flags
+type 	0
+flags 	69
+
+// Scene files
+addScene {	scene	cinemas/demo07/dm_07_1.dsk
+			}
+
+addScene {	scene	cinemas/demo07/dm_07_2.dsk
+			}
+
+// Actor files
+// Scene cuts
+addCut {	cut		0	0	180
+			flags	3
+			keys	1	{	
+					0	0	2	178
+						}
+			}
+
+addCut {	cut		1	0	2
+			flags	5
+			keys	0	{	
+						}
+			}
+

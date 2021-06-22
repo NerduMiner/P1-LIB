@@ -1,0 +1,68 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/data/ÉfÉÇÉVÅ[Éì/demo49/de_ptd_02
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/09/08
+	time	11:01:01
+	host	MAKITAS-ZPRO
+	magnify	1.000000
+	numframes	399
+	numcameras	1
+	numAmbLights	0
+	numDifLights	0
+	numfogs		0
+	numLayerFogs	0
+	playmode	loop
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	73
+	float	0.000000 37.409756 -12.647756 359.000000 -127.920479 0.000000 0.000000 79.645699
+	float	0.876063 359.000000 91.097511 0.000000 0.000000 -128.839233 11.948980 149.132553
+	float	-51.930252 4.680043 359.000000 -72.834724 0.000000 0.000000 -77.790024 0.000000
+	float	143.000000 -77.784973 0.015789 188.000000 -77.335114 0.068433 313.000000 -80.945473
+	float	-2.101399 359.000000 -86.628540 0.000000 0.000000 11.609259 0.000000 143.000000
+	float	11.609259 0.000000 188.000000 11.609259 0.000000 268.000000 11.609259 0.000000
+	float	314.000000 11.609259 -0.022924 359.000000 34.934406 0.000000 0.000000 -138.981155
+	float	0.000000 143.000000 -138.980453 0.002177 188.000000 -152.776062 -5.242749 315.000000
+	float	-169.052216 -7.441409 359.000000 -195.192093 0.000000 0.000000 44.896404 0.100000
+	float	32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	2	0	0
+	cam_pos_y	2	6	0
+	cam_pos_z	3	12	0
+	cam_lat_x	5	21	0
+	cam_lat_y	6	36	0
+	cam_lat_z	5	54	0
+	cam_twist	1	69	0
+	cam_fovy	1	70	0
+	cam_near	1	71	0
+	cam_far		1	72	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.180000
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+

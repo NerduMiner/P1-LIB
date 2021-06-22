@@ -1,0 +1,66 @@
+<SCENE_KEY_ANM_INFO>
+{
+	version	1.00
+	filename	d:/data/ÉfÉÇÉVÅ[Éì/demo13/pr_o_e_2
+	toolname	soft3D
+	source	'SOFTIMAGE3D_SDKv1.93.0 / 3Dv3.93.0'
+	date	2001/08/27
+	time	21:14:13
+	host	MAKITAS-ZPRO
+	magnify	1.000000
+	numframes	280
+	numcameras	1
+	numAmbLights	0
+	numDifLights	0
+	numfogs		0
+	numLayerFogs	0
+	playmode	loop
+	si_key		nouse
+}
+
+<KEY_CAMERA_ANM>
+{
+	size	60
+	float	0.000000 70.710678 -48.130875 37.000000 -4.483581 -67.199776 80.000000 -84.604385
+	float	-35.559425 113.000000 -98.338509 12.304459 148.000000 -56.921936 55.466423 216.000000
+	float	79.529549 40.524101 253.000000 98.338531 -12.304344 279.000000 72.277542 -45.860825
+	float	280.000000 0.000000 0.000000 157.260117 0.000000 70.710686 47.006149 36.000000
+	float	99.973495 -1.586037 77.000000 58.756664 -54.598618 146.000000 -79.529686 -40.525360
+	float	183.000000 -98.338562 12.304459 218.000000 -56.922001 55.468254 278.000000 67.465599
+	float	49.751816 279.000000 69.106331 49.221954 280.000000 0.000000 0.000000 10.000000
+	float	1.000000 30.000000 0.100000 32768.000000 
+}
+
+
+<KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	cam_pos_x	9	0	0
+	cam_pos_y	1	27	0
+	cam_pos_z	9	28	0
+	cam_lat_x	1	25	0
+	cam_lat_y	1	55	0
+	cam_lat_z	1	56	0
+	cam_twist	1	25	0
+	cam_fovy	1	57	0
+	cam_near	1	58	0
+	cam_far		1	59	0
+}
+
+<EX_SI_KEY_CAMERA_ANM>
+{
+	size	0
+}
+
+
+<EX_SI_KEY_CAMERA_TABLE>
+{
+	index	0
+	name	cam_int1
+	si_cam_aspect_ratio	1.333300
+	si_cam_auto_fovy	false
+
+	si_cam_dof_type		off
+}
+
