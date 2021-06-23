@@ -13,4 +13,6 @@ public:
     u32 m_dword4; // _04
 };
 
+EXPECT_SIZE(PVWColourAnimInfo, 0x8);
+
 #endif

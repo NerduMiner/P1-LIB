@@ -2,8 +2,8 @@
 #define _PVWTEXTUREDATA_H
 
 #pragma once
-#include <PKHeader/PVWTexAnimInfo.h>
 #include <PKHeader/Matrix4f.h>
+#include <PKHeader/PVWTexAnimInfo.h>
 #include <types.hpp>
 
 class DllImport PVWTextureData {

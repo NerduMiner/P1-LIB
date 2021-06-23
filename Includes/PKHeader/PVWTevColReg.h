@@ -2,6 +2,8 @@
 #define _PVWTEVCOLREG_H
 
 #pragma once
+#include <PKHeader/PVWAlphaShortAnimInfo.h>
+#include <PKHeader/PVWColourShortAnimInfo.h>
 #include <PKHeader/ShortColour.h>
 #include <types.hpp>
 
@@ -14,9 +16,14 @@ public:
     void read(class RandomAccessStream&);
     void write(class RandomAccessStream&);
 
-    ShortColour m_shortColour0; // _00
-    u32 m_dword8;               // _08
-    f32 m_dwordC;               // _0C
+    ShortColour m_shortColour0;             // _00
+    u32 m_dword8;                           // _08
+    f32 m_dwordC;                           // _0C
+    PVWColourShortAnimInfo m_shortAnimInfo; // _10
+    PVWAlphaShortAnimInfo m_alphaAnimInfo;  // _18
+    u32 m_dword20;                          // _20
 };
+
+EXPECT_SIZE(PVWTevColReg, 0x24);
 
 #endif

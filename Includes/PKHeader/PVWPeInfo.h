@@ -16,4 +16,6 @@ public:
     u32 m_dwordC; // _0C
 };
 
+EXPECT_SIZE(PVWPeInfo, 0x10);
+
 #endif

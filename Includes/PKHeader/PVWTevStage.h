@@ -2,8 +2,8 @@
 #define _PVWTEVSTAGE_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/PVWCombiner.h>
+#include <types.hpp>
 
 class DllImport PVWTevStage {
 public:
@@ -20,5 +20,7 @@ public:
     PVWCombiner m_pvwCombiner6;  // _06
     PVWCombiner m_pvwCombiner12; // _12
 };
+
+EXPECT_SIZE(PVWTevStage, 0x1E);
 
 #endif

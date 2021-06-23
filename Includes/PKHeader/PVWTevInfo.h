@@ -13,7 +13,7 @@ public:
     bool isSame(class PVWTevInfo&);
     void read(class RandomAccessStream&);
     void write(class RandomAccessStream&);
-    
+
     char _00[0x84]; // _00
 };
 

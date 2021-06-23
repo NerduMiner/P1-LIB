@@ -24,4 +24,6 @@ public:
     u8 m_byteB; // _0B
 };
 
+EXPECT_SIZE(PVWCombiner, 0xC);
+
 #endif

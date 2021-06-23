@@ -2,10 +2,10 @@
 #define _PVWTEXTUREINFO_H
 
 #pragma once
-#include <types.hpp>
-#include <PKHeader/Vector3f.h>
-#include <PKHeader/PVWTextureData.h>
 #include <PKHeader/PVWTexGenData.h>
+#include <PKHeader/PVWTextureData.h>
+#include <PKHeader/Vector3f.h>
+#include <types.hpp>
 
 class DllImport PVWTextureInfo {
 public:
@@ -23,5 +23,7 @@ public:
     PVWTextureData* m_textureData; // _1C
     PVWTexGenData* m_texGenData;   // _20
 };
+
+EXPECT_SIZE(PVWTextureInfo, 0x24);
 
 #endif

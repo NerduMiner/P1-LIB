@@ -15,4 +15,6 @@ public:
     f32 m_dword8; // _08
 };
 
+EXPECT_SIZE(PVWKeyInfoU8, 0xC);
+
 #endif

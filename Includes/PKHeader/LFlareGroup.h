@@ -19,4 +19,6 @@ public:
     u32 m_dword24; // _24
 };
 
+EXPECT_SIZE(LFlareGroup, 0x28);
+
 #endif

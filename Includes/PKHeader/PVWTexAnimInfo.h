@@ -10,7 +10,9 @@ public:
     void extract(float, class Vector3f&);
 
     u32 m_dword0; // _00
-    u32 m_dword4; // _00
+    u32 m_dword4; // _04
 };
+
+EXPECT_SIZE(PVWTexAnimInfo, 0x8);
 
 #endif
