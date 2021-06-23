@@ -2,8 +2,8 @@
 #define _ANIMDCA_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/AnimData.h>
+#include <types.hpp>
 
 class DllImport AnimDca : public AnimData {
 public:
@@ -17,5 +17,7 @@ public:
     virtual void write(class RandomAccessStream&);
     virtual void writeType(class RandomAccessStream&);
 };
+
+EXPECT_SIZE(AnimDca, sizeof(AnimData));
 
 #endif

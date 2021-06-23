@@ -15,4 +15,6 @@ public:
     u32 m_dword20; // _20
 };
 
+EXPECT_SIZE(AnmobjInfo, 0x24);
+
 #endif

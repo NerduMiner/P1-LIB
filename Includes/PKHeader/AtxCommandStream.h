@@ -2,8 +2,8 @@
 #define _ATXCOMMANDSTREAM_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/AtxStream.h>
+#include <types.hpp>
 
 class DllImport AtxCommandStream : public AtxStream {
 public:

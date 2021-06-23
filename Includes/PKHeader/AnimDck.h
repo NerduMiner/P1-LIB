@@ -2,8 +2,8 @@
 #define _ANIMDCK_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/AnimData.h>
+#include <types.hpp>
 
 class DllImport AnimDck : public AnimData {
 public:
@@ -20,5 +20,7 @@ public:
     virtual void write(class RandomAccessStream&);
     virtual void writeType(class RandomAccessStream&);
 };
+
+EXPECT_SIZE(AnimDck, sizeof(AnimData));
 
 #endif

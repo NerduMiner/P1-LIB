@@ -2,10 +2,10 @@
 #define _ANIMDATA_H
 
 #pragma once
-#include <types.hpp>
-#include <PKHeader/CoreNode.h>
 #include <PKHeader/AnimCacheInfo.h>
+#include <PKHeader/CoreNode.h>
 #include <PKHeader/DataChunk.h>
+#include <types.hpp>
 
 class DllImport AnimData : public CoreNode {
 public:

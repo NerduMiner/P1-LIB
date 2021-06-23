@@ -2,8 +2,8 @@
 #define _ANIMCONTEXT_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/AnimData.h>
+#include <types.hpp>
 
 class DllImport AnimContext {
 public:
@@ -15,9 +15,11 @@ public:
 
     virtual void animate(float);
 
-    AnimData* m_animData0; // _00
-    AnimData* m_state;     // _04
-    f32 m_frame;           // _08 defaults to 30
+    AnimData* m_animData0; // _04
+    AnimData* m_state;     // _08
+    f32 m_frame;           // _0C defaults to 30
 };
+
+EXPECT_SIZE(AnimContext, 0x10);
 
 #endif

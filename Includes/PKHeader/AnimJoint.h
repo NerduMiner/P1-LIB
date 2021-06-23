@@ -12,4 +12,6 @@ public:
     char _00[0x24];
 };
 
+EXPECT_SIZE(AnimJoint, 0x24);
+
 #endif

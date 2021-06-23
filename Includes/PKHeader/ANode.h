@@ -20,4 +20,6 @@ public:
     virtual int getAgeNodeType(void);
 };
 
+EXPECT_SIZE(ANode, 0x4);
+
 #endif

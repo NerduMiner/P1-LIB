@@ -2,8 +2,8 @@
 #define _APPWINDOW_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/UIWindow.h>
+#include <types.hpp>
 
 class DllImport AppWindow : public UIWindow {
 public:
@@ -15,5 +15,7 @@ public:
 
     class BaseApp* m_app; // _88
 };
+
+EXPECT_SIZE(AppWindow, 0x8C);
 
 #endif

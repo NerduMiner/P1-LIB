@@ -2,8 +2,8 @@
 #define _AGESERVER_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/AtxStream.h>
+#include <types.hpp>
 
 template <typename T>
 class IDelegate1 {
@@ -61,5 +61,7 @@ public:
 
     bool m_inSection; // _10
 };
+
+EXPECT_SIZE(AgeServer, 0x14);
 
 #endif

@@ -2,9 +2,9 @@
 #define _ANIMFRAMECACHER_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/AyuCache.h>
 #include <PKHeader/CacheInfo.h>
+#include <types.hpp>
 
 class DllImport AnimFrameCacher {
 public:
@@ -20,7 +20,8 @@ public:
     u32 m_dwordC;             // _0C
     CacheInfo* m_cacheInfo10; // _10
     u32 m_dword14;            // _14
-    u32 m_dword18;            // _18
 };
+
+EXPECT_SIZE(AnimFrameCacher, 0x18);
 
 #endif

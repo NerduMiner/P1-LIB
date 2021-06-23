@@ -2,8 +2,8 @@
 #define _ANIMCACHEINFO_H
 
 #pragma once
-#include <types.hpp>
 #include <PKHeader/CacheInfo.h>
+#include <types.hpp>
 
 class DllImport AnimCacheInfo {
 public:
@@ -18,7 +18,8 @@ public:
     CacheInfo* m_cacheInfo10; // _10
     s32 m_dword14;            // _14
     s32 m_dword18;            // _18
-    s32 m_dword1C;            // _1C
 };
+
+EXPECT_SIZE(AnimCacheInfo, 0x1C);
 
 #endif
