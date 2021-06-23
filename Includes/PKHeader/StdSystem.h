@@ -3,11 +3,11 @@
 
 #pragma once
 #include <PKHeader/AyuHeap.h>
+#include <PKHeader/BaseShape.h>
 #include <PKHeader/CoreNode.h>
 #include <PKHeader/Font.h>
 #include <PKHeader/GfxobjInfo.h>
 #include <PKHeader/Matrix4f.h>
-#include <PKHeader/BaseShape.h>
 #include <PKHeader/TextureCacher.h>
 #include <PKHeader/Timers.h>
 #include <types.hpp>
@@ -133,5 +133,7 @@ public:
     u32 m_dword23C;            // _23C
     u32 m_dword240;            // _240
 };
+
+EXPECT_SIZE(StdSystem, 0x244);
 
 #endif
