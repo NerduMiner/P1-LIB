@@ -1,5 +1,5 @@
 #include <PKHeader/AppWindow.h>
-#include <PKHeader/BaseApp.h>
+#include <PKHeader/GameApp.h>
 #include <PKHeader/OptionBox.h>
 #include <PKHeader/System.h>
 #include <attach_module.h>
@@ -22,7 +22,7 @@ static void print(const char* fmt, ...)
     }
 }
 
-class AxiotPlugin : public BaseApp {
+class AxiotPlugin : public GameApp {
 public:
     AxiotPlugin()
     {
@@ -47,9 +47,29 @@ public:
 
     virtual int idle()
     {
-        // Every frame when the window is in focus
+        sysCurrWnd = m_window->m_hWnd;
+        u32 updateC = idleupdate();
+        sysCurrWnd = 0;
 
-        return 0;
+        if (!m_byte28 && !updateC)
+        {
+            return 0;
+        }
+
+        gsys->m_controllerMgr.update();
+        m_window->update();
+
+        gsys->m_timer->start("all", false);
+        if (!m_pendingMessage && !m_server) {
+            sysCurrWnd = m_window->m_hWnd;
+            startAgeServer();
+            sysCurrWnd = nullptr;
+
+            m_pendingMessage = true;
+        }
+        gsys->m_timer->stop("all");
+
+        return 1;
     }
 
     AppWindow* m_window = nullptr;
