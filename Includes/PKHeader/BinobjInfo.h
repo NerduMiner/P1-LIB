@@ -11,7 +11,7 @@ public:
     BinobjInfo(void);
     class BinobjInfo& operator=(class BinobjInfo const&);
 
-    u32 m_dword20; // _20
+    u32 m_target; // _20
 };
 
 #endif

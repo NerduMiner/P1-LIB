@@ -14,7 +14,7 @@ public:
     virtual void attach(void);
     virtual void detach(void);
 
-    DispList* m_displayList; // _20
+    DispList* m_target; // _20
 };
 
 #endif

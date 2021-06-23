@@ -14,7 +14,7 @@ public:
     virtual void attach(void);
     virtual void detach(void);
 
-    Material* m_obj; // _20
+    Material* m_target; // _20
 };
 
 #endif

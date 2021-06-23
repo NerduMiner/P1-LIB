@@ -12,7 +12,7 @@ public:
     ShpobjInfo(void);
     class ShpobjInfo& operator=(class ShpobjInfo const&);
 
-    Shape* m_obj; // _20
+    Shape* m_target; // _20
 };
 
 #endif

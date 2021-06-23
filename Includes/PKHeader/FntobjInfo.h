@@ -12,7 +12,7 @@ public:
     FntobjInfo(void);
     class FntobjInfo& operator=(class FntobjInfo const&);
 
-    Font* m_obj; // _20
+    Font* m_target; // _20
 };
 
 #endif

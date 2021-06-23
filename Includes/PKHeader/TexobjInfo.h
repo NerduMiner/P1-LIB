@@ -14,7 +14,7 @@ public:
     virtual void attach(void);
     virtual void detach(void);
 
-    Texture* m_obj; // _20
+    Texture* m_target; // _20
 };
 
 #endif
