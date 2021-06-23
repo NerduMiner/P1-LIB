@@ -378,3 +378,4 @@ output/plugins/AXIOT_DLL.dll
 output/plugins/AXIOT_DLL.lib
 output/plugins/AXIOT_DLL.exp
 output/atxclient.py
+output/log.txt
