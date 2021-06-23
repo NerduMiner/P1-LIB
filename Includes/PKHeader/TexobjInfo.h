@@ -3,7 +3,6 @@
 
 #pragma once
 #include <PKHeader/GfxobjInfo.h>
-#include <PKHeader/Texture.h>
 #include <types.hpp>
 
 class DllImport TexobjInfo : public GfxobjInfo {
@@ -14,7 +13,7 @@ public:
     virtual void attach(void);
     virtual void detach(void);
 
-    Texture* m_target; // _20
+    class Texture* m_target; // _20
 };
 
 #endif
