@@ -8,11 +8,11 @@ class DllImport Texture {
 public:
     Texture(class Texture const&);
     Texture(void);
-    class Texture& operator=(class Texture const&);    
+    class Texture& operator=(class Texture const&);
     void createBuffer(int, int, int, void*);
     void decodeData(class TexImg*);
-    static void decodeS3TC(int, int, unsigned __int8*, unsigned __int8*);    
-    void grabBuffer(int, int, bool, bool);    
+    static void decodeS3TC(int, int, unsigned __int8*, unsigned __int8*);
+    void grabBuffer(int, int, bool, bool);
     int offsetGXtoGL(int);
     static int offsetGXtoGL(int, int, int, int);
     void read(class RandomAccessStream&);
@@ -21,7 +21,6 @@ public:
     virtual void attach(void);
     virtual void detach(void);
     virtual void makeResident(void);
-
 
     s16 m_word4;         // _04
     s16 m_wrapFlags;     // _06
@@ -36,7 +35,7 @@ public:
     s32 m_dword24;       // _24
     s32 m_dword28;       // _28
     s32 m_dword2C;       // _2C
-    s32 m_dword30;       // _30
+    TexobjInfo* m_info;  // _30
 };
 
 #endif
