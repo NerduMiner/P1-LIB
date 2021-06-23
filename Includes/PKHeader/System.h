@@ -56,9 +56,9 @@ public:
     u8 m_byte24C;                       // _24C
     u8 m_byte24D;                       // _24D
     u8 m_byte24E;                       // _24E
-    u32 m_dword250;                     // _250
+    u32 m_glWindowsActive;              // _250 guessed name
     u32 m_videoMode;                    // _254
-    u32 m_dword258;                     // _258
+    Graphics* m_graphics2;              // _258
     void* m_sysHeapMem;                 // _25C
     s32 m_sysHeapSize;                  // _260 0x5000000
     AtxFileStream m_fileStream264;      // _264
@@ -68,16 +68,13 @@ public:
     u8 m_hostName[0x80];                // _3B8
     AtxDirectRouter* m_router;          // _438
     u32 m_dword43C;                     // _43C
-    u32 m_dword440;                     // _440
-    u32 m_dword444;                     // _444
-    u32 m_dword448;                     // _448
-    u32 m_dword44C;                     // _44C
-    u32 m_dword450;                     // _450
-    u32 m_dword454;                     // _454
+    u64 m_currentTime;                  // _440
+    u64 m_endClockTime;                 // _448
+    u64 m_startingClockTime;            // _450
     f32 m_frameTime;                    // _458
     f32 m_frameRate;                    // _45C
-    u32 m_dword460;                     // _460
-    u32 m_dword464;                     // _464
+    u32 m_clockCount;                   // _460 increments on updateSysClock
+    u32 m_endClockCount;                // _464
     u32 m_frameCount;                   // _468
 };
 

@@ -116,8 +116,8 @@ public:
     u32 m_lightingSkips;       // _1BC
     u32 m_lightingSets;        // _1C0
     u32 m_systemState;         // _1C4
-    u32 m_dword1C8;            // _1C8
-    u32 m_dword1CC;            // _1CC
+    u32 m_systemFlags;         // _1C8
+    Graphics* m_graphics;      // _1CC
     GfxobjInfo m_gfxObjects;   // _1D0
     bool m_hasGfxObjects;      // _1F0
     char* m_textureBase1;      // _1F4
@@ -127,10 +127,10 @@ public:
     CoreNode m_coreNode214;    // _214
     u32 m_dword228;            // _228
     u32 m_flareCount;          // _22C
-    u32 m_dword230;            // _230
-    u32 m_dword234;            // _234
+    u32 m_lfInfoCount;         // _230
+    LFInfo* m_lfInfo;          // _234
     LightFlare* m_lightFlares; // _238
-    LFlareGroup* m_dword23C;   // _23C
+    LFlareGroup* m_lfGroups;   // _23C
     u32 m_dword240;            // _240
 };
 
