@@ -2,6 +2,7 @@
 #define _TEXTURE_H
 
 #pragma once
+#include <PKHeader/TexobjInfo.h>
 #include <types.hpp>
 
 class DllImport Texture {
