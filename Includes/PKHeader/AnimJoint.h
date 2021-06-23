@@ -9,7 +9,7 @@ public:
     AnimJoint(void);
     class AnimJoint& operator=(class AnimJoint const&);
 
-    char _00[0x24];
+    char m_byte0[0x24]; // _00
 };
 
 EXPECT_SIZE(AnimJoint, 0x24);
