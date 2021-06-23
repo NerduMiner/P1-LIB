@@ -10,7 +10,12 @@ public:
     void read(class RandomAccessStream&);
     void write(class RandomAccessStream&);
 
-    u32 m_dword0; // _00
+    u8 m_byte0; // _00
+    u8 m_byte1; // _01
+    u8 m_byte2; // _02
+    u8 m_byte3; // _03
 };
+
+EXPECT_SIZE(PVWTexGenData, 0x4);
 
 #endif
