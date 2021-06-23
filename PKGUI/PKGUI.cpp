@@ -114,7 +114,6 @@ int WINAPI WinMain(
     gsys->m_router = new AtxDirectRouter("127.0.0.1");
 
     load_plugins_folder("plugins");
-    modMgr->Alloc("AtxServer");
 
     MessageBox(NULL, "Open any plugin then close this window", "Warning !", MB_OK | MB_ICONWARNING);
     u32 exitCode = gsys->run(nullptr);

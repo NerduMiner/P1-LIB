@@ -53,7 +53,6 @@ public:
     }
 
     AppWindow* m_window = nullptr;
-    AtxDirectRouter* m_router = nullptr;
 };
 
 static AxiotPlugin* generatePlugin()
