@@ -56,7 +56,7 @@ public:
     u8 m_byte24C;                       // _24C
     u8 m_byte24D;                       // _24D
     u8 m_byte24E;                       // _24E
-    u8 m_dword250;                      // _250
+    u32 m_dword250;                     // _250
     u32 m_videoMode;                    // _254
     u32 m_dword258;                     // _258
     void* m_sysHeapMem;                 // _25C
@@ -80,6 +80,8 @@ public:
     u32 m_dword464;                     // _464
     u32 m_frameCount;                   // _468
 };
+
+EXPECT_SIZE(System, 0x46C);
 
 extern DllImport System* gsys;
 System UNUSED_SYSTEM_INSTANCE; // USED TO INITIALISE GSYS
