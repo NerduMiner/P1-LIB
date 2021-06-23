@@ -3,7 +3,6 @@
 
 #pragma once
 #include <PKHeader/GfxobjInfo.h>
-#include <PKHeader/Material.h>
 #include <types.hpp>
 
 class DllImport MatobjInfo : public GfxobjInfo {
@@ -14,7 +13,7 @@ public:
     virtual void attach(void);
     virtual void detach(void);
 
-    Material* m_target; // _20
+    class Material* m_target; // _20
 };
 
 #endif

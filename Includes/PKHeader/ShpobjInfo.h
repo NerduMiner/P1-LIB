@@ -3,7 +3,6 @@
 
 #pragma once
 #include <PKHeader/GfxobjInfo.h>
-#include <PKHeader/Shape.h>
 #include <types.hpp>
 
 class DllImport ShpobjInfo : public GfxobjInfo {
@@ -12,7 +11,7 @@ public:
     ShpobjInfo(void);
     class ShpobjInfo& operator=(class ShpobjInfo const&);
 
-    Shape* m_target; // _20
+    class Shape* m_target; // _20
 };
 
 #endif

@@ -2,7 +2,6 @@
 #define _DLOBJINFO_H
 
 #pragma once
-#include <PKHeader/DispList.h>
 #include <PKHeader/GfxobjInfo.h>
 #include <types.hpp>
 
@@ -14,7 +13,7 @@ public:
     virtual void attach(void);
     virtual void detach(void);
 
-    DispList* m_target; // _20
+    class DispList* m_target; // _20
 };
 
 #endif

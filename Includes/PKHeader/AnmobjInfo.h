@@ -12,7 +12,7 @@ public:
     class AnmobjInfo& operator=(class AnmobjInfo const&);
     virtual void detach(void);
 
-    u32 m_target; // _20
+    class AnimData* m_target; // _20
 };
 
 EXPECT_SIZE(AnmobjInfo, 0x24);

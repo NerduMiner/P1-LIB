@@ -11,7 +11,7 @@ public:
     BinobjInfo(void);
     class BinobjInfo& operator=(class BinobjInfo const&);
 
-    u32 m_target; // _20
+    char* m_target; // _20 data of the binary object
 };
 
 #endif

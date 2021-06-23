@@ -2,9 +2,8 @@
 #define _FNTOBJINFO_H
 
 #pragma once
-#include <types.hpp>
-#include <PKHeader/Font.h>
 #include <PKHeader/GfxobjInfo.h>
+#include <types.hpp>
 
 class DllImport FntobjInfo : public GfxobjInfo {
 public:
@@ -12,7 +11,7 @@ public:
     FntobjInfo(void);
     class FntobjInfo& operator=(class FntobjInfo const&);
 
-    Font* m_target; // _20
+    class Font* m_target; // _20
 };
 
 #endif
