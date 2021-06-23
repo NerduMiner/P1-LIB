@@ -2,9 +2,12 @@
 #define _PVWPOLYGONCOLOURINFO_H
 
 #pragma once
+#include <PKHeader/Colour.h>
+#include <PKHeader/PVWAlphaAnimInfo.h>
+#include <PKHeader/PVWColourAnimInfo.h>
 #include <types.hpp>
 
-class DllImport PVWPolygonColourInfo {
+class DllImport PVWPolygonColourInfo : public Colour {
 public:
     PVWPolygonColourInfo(void);
     class PVWPolygonColourInfo& operator=(class PVWPolygonColourInfo const&);
@@ -12,7 +15,13 @@ public:
     void read(class RandomAccessStream&);
     void write(class RandomAccessStream&);
 
-    char _00[0x20]; // _00
+    u32 m_dword4;             // _04
+    f32 m_dword8;             // _08
+    PVWColourAnimInfo m_unk1; // _0C
+    PVWAlphaAnimInfo m_unk2;  // _14
+    f32 m_dword1C;            // _1C
 };
+
+EXPECT_SIZE(PVWPolygonColourInfo, 0x20);
 
 #endif

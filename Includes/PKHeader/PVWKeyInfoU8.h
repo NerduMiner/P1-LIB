@@ -9,6 +9,10 @@ public:
     class PVWKeyInfoU8& operator=(class PVWKeyInfoU8 const&);
     void read(class RandomAccessStream&);
     void write(class RandomAccessStream&);
+
+    u8 m_byte0;   // _00
+    f32 m_dword4; // _04
+    f32 m_dword8; // _08
 };
 
 #endif
