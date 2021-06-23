@@ -130,7 +130,7 @@ public:
     u32 m_dword230;            // _230
     u32 m_dword234;            // _234
     LightFlare* m_lightFlares; // _238
-    u32 m_dword23C;            // _23C
+    LFlareGroup* m_dword23C;   // _23C
     u32 m_dword240;            // _240
 };
 
